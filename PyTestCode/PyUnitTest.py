@@ -10,7 +10,8 @@ token_id = []
 
 class QuickstartUser(HttpUser):
     wait_time = between(1, 5)
-    host = "http://44.228.39.101:8080"
+    #host = "http://44.228.39.101:8080"
+    host = input("Enter host: ")
     #upload_json = json.
     def on_start(self):
         if code_id:  # Check if there are still codes left
