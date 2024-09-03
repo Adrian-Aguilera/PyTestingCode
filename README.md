@@ -1,4 +1,2 @@
 # PyTestingCode
-Example code unit test  python using locust 
- 
-   
+Example code unit test  python using locust
